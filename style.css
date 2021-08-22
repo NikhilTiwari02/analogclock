@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clock{
+    background-image: url(6iy5bje5T.png);
+    background-size:contain;
+    height: 40vw;
+    width: 40vw;
+    position: relative;
+    left: 30vw;
+    top:6.5vh;
+    background-repeat: no-repeat;
+    
+}
+#hrs { height: 25%;
+     width: 2.4%;
+      background-color: black; 
+      position: relative; 
+      top: 24%;
+       left: 48.4%;
+    transform-origin:bottom;
+
+    }
+       #min { height: 30%;
+         width: 2.2%;
+          background-color: black; 
+          position: absolute; 
+          top: 19.9%; 
+          left: 48.68%; 
+    transform-origin:bottom;
+    
+        }
+        #sec{
+            height: 32%;
+         width: 2%;
+          background-color: rgb(138, 20, 20); 
+          position: absolute; 
+          top: 17.4%; 
+    transform-origin:bottom;
+    left: 48.68%;
+    
+
+        }
